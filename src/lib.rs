@@ -95,4 +95,9 @@ mod test {
 
         assert_eq!(vec!["Rust:",], search_case_sensitive(query, contents));
     }
+
+    #[test]
+    fn failing_test(){
+    assert_eq!("Hello", "World");
+    }
 }
